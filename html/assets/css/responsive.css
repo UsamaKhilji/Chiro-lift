@@ -1,0 +1,231 @@
+/* Hero Section  */
+@media screen and (max-width: 991px) {
+
+    .open-aside {
+        display: block;
+    }
+
+    #Hero h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #Hero .hero-right figure img {
+        width: 80%;
+
+    }
+
+    #Hero .hero-right figure img {
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+
+    #Hero .hero-images1 {
+        top: 60px;
+        right: -30px;
+    }
+
+    #Hero .hero-images2 {
+        top: 200px;
+        right: -30px;
+    }
+
+    #Hero .hero-images1 img,
+    #Hero .hero-images2 img {
+        border-radius: 50%;
+        width: 90px
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #Hero .hero-images1 {
+        top: 60px;
+        right: -20px;
+    }
+
+    #Hero .hero-images2 {
+        top: 200px;
+        right: -20px;
+    }
+
+    #Hero .hero-images1 img,
+    #Hero .hero-images2 img {
+        border-radius: 50%;
+        width: 70px
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #Hero .hero-right figure img {
+        margin-left: 60px;
+        margin-bottom: 0px;
+    }
+
+    #Hero .hero-left {
+        text-align: center;
+    }
+
+    #Hero .hero-right figure img {
+        width: 70%;
+
+    }
+
+    #Hero .hero-images1 {
+        top: 80px;
+        right: 10px;
+    }
+
+    #Hero .hero-images2 {
+        top: 250px;
+        right: 10px;
+    }
+
+    #Hero .hero-images1 img,
+    #Hero .hero-images2 img {
+        border-radius: 50%;
+        width: 100px
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+    #Hero .hero-images1 {
+        top: 60px;
+        right: 10px;
+    }
+
+    #Hero .hero-images2 {
+        top: 200px;
+        right: 10px;
+    }
+
+    #Hero .hero-images1 img,
+    #Hero .hero-images2 img {
+        border-radius: 50%;
+        width: 90px
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+
+    #Hero h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #Hero .hero-images1 {
+        top: 40px;
+        right: 10px;
+    }
+
+    #Hero .hero-images2 {
+        top: 150px;
+        right: 10px;
+    }
+
+    #Hero .hero-images1 img,
+    #Hero .hero-images2 img {
+        border-radius: 50%;
+        width: 60px
+    }
+}
+
+/* Hero Section  */
+
+
+/* form */
+@media screen and (max-width: 500px) {
+
+    #Hero .Head-row form input {
+        width: 435px;
+    }
+}
+
+/* form */
+/* cards Section  */
+@media screen and (max-width: 600px) {
+
+    #Hero .head-card1 {
+        width: 100%;
+    }
+}
+
+/* cards Section End  */
+
+
+/* Appoinment section  */
+
+@media screen and (max-width: 768px) {
+    #Head-Appointment .appointment-b {
+        padding: 7px 25px;
+        border-radius: 15px;
+    }
+
+    #Head-Appointment .appointment-b h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    #Head-Appointment .col-sm-7 figure img {
+
+        width: 100%;
+    }
+
+    #Head-Appointment .appointment {
+        padding: 11px 8px;
+
+    }
+
+    #Head-Appointment .container .bg-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    #Head-Appointment .appointment .appointment-card1 {
+        gap: 160px;
+    }
+
+    #Head-Appointment .container .bg-image {
+        display: none;
+    }
+
+    #Head-Appointment .appointment-b {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    #Head-Appointment .col-lg-4 figure {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* Appoinment section  End */
+/* Service section  */
+
+@media screen and (max-width: 500px) {
+    #Services .service-mainimg {
+        margin: 0 50px;
+    }
+
+    #Services .service-mainimg .servic-card h4 {
+        font-size: 20px;
+        line-height: 4px;
+    }
+
+    #Services .service-mainimg .servic-card {
+        width: 100%;
+        left: -5px;
+        bottom: -5px;
+        padding: 20px 10px;
+    }
+}
+
+/* Service section  End */

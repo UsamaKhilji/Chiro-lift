@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChiroLift</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="assets/images/fav-icon.svg" type="image/x-icon">
+    <!-- faremwork of css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive sheet of css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- fonts awsome icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- bootstrap icons css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Aos of  css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <!-- ======== 1.1. header section ======== -->
+        <header>
+            <nav class="container navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <!-- site logo -->
+                    <a class="nav-logo p-0 " href="index.html">
+                        <figure><img src="assets/images/logo.svg" alt="logo"></figure>
+                    </a>
+                    <!-- navigation button  -->
+                    <button class="open-aside" onclick="open_aside()" type="button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+                    <!-- navigation bar manu  -->
+                    <div class="collapse navbar-collapse m-0 " id="navbarSupportedContent">
+
+                        <ul
+                            class="navbar-nav d-flex justify-content-center align-items-center gap-lg-2 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages.html">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <ul
+                            class="navbar-nav d-flex justify-content-center align-items-center gap-lg-1 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <p class="mb-0">Follow us:</p>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--===== aside navigation slidebar =====-->
+            <aside>
+                <div id="mySidenav" class="right-sidbar">
+                    <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                        <figure class="navbar-brand"><a href="index.html"><img src="assets/images/logo.svg" alt="img"
+                                    class=""></a></figure>
+                        <button class="fa-solid fa-xmark" onclick="close_aside()"> </button>
+                    </div>
+                    <ul>
+                        <li class="nav-item">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pricing.html">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="d-flex align-items-center justify-content-between " id="slid-btn">
+                                <button class="a-slid page-btn">Pages</button>
+                                <i class="fa-solid fa-caret-down pe-2"></i>
+                            </div>
+                            <ul id="slid-drop">
+                                <li><a href="blog_Detail.html">Blog Detail</a></li>
+                                <li><a href="our_Blog.html">Our Blog</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="coming.html">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </header>
+        <!-- ======== End of 1.1. header section ========  -->
+
+        <!-- ======== Hero Section   1.2. ========  -->
+        <section id="Hero">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="hero-left">
+                            <h1>Chiropractor
+                                At Your Service</h1>
+                            <p>What is Physiotherapy? Physiotherapy is treatment to restore, maintain, and make the most
+                                of
+                                a patient's mobility, function, and well-being. Physiotherapy helps through physical
+                                rehabilitation, injury prevention, and health and fitness. Physiotherapists get you
+                                involved
+                                in your own recovery.</p>
+                            <div>
+                                <button type="button" class="Read-more hover1">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="hero-right">
+                            <figure><img src="assets/images/index/hero-img1.png" alt="Hero-Image"></figure>
+                        </div>
+                        <div class="hero-images1">
+                            <img src="assets/images/index/hero-img2.png" alt="Hero_image">
+                        </div>
+                        <div class="hero-images2">
+                            <img src="assets/images/index/hero-img3.png" alt="Hero_image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======== Form  Section   1.2. ========  -->
+                <div class="Head-row">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3 class="text-center p-4">Book an appointment today</h3>
+                        </div>
+                    </div>
+                    <form>
+                        <div><input type="text" placeholder="Name"></div>
+                        <div><input type="email" placeholder="Email"></div>
+                        <div><input type="text" id="inputField" placeholder="Date"></div>
+                        <div><input type="text" placeholder="Service"></div>
+                        <div class="book-btn">
+                            <button type="button">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- ======== Form  Section  end  1.2. ========  -->
+                <!-- ======== Head  Card  end  1.2. ========  -->
+                <div class="Head-card">
+                    <div class="head-card1">
+                        <figure>
+                            <img src="assets/images/Health-Image1.svg" alt="Health-Image">
+                        </figure>
+                        <h4>Health Guarantee</h4>
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</p>
+                        <button><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="head-card1 hover2">
+                        <figure>
+                            <img src="assets/images/Health-Image2.svg" alt="Health-Image">
+                        </figure>
+                        <h4>Trusted Clinic</h4>
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</p>
+                        <button class="hover2"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="head-card1">
+                        <figure>
+                            <img src="assets/images/Health-Image3.svg" alt="Health-Image">
+                        </figure>
+                        <h4>Expert Therapist</h4>
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</p>
+                        <button><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <!-- ======== Head  card end  1.2. ========  -->
+            </div>
+        </section>
+        <!-- ======== Hero Section ENd  1.2. ========  -->
+        <!-- ======== Appointment Section   1.3. ========  -->
+
+        <section id="Head-Appointment">
+            <div class="container">
+                <figure class="bg-image"><img src="assets/images/index/app-circule.png" alt="Image"></figure>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-5">
+                        <div class="appointment">
+                            <div class="appointment-card1">
+                                <div><img src="assets/images/troofy.svg" alt="image"></div>
+                                <div>
+                                    <h2>78</h2>
+                                    <p>Skilled Therapist</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="appointment-card1">
+                                <div><img src="assets/images/person.svg" alt="image"></div>
+                                <div>
+                                    <h2>880</h2>
+                                    <p>Solved cases</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="appointment-card1">
+                                <div><img src="assets/images/muscels.svg" alt="image"></div>
+                                <div>
+                                    <h2>640</h2>
+                                    <p>Happy Patients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="appointment-b">
+                            <h4>We have 10 years to Giving Services</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-7">
+                        <figure>
+                            <img src="assets/images/index/Therapist.png" alt="Health-Image">
+                        </figure>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h2>Experience The Healing Power Of Chiropractic</h2>
+                        <p class="py-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                            eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur
+                            ridiculus mus.</p>
+                        <div class="signature">
+                            <div class="signature-cards">
+                                <div class="signature-cards-1"><img src="assets/images/dott.svg" alt="dott">
+                                    <p>Professional Therapist</p>
+                                </div>
+
+                                <div>
+                                    <div class="signature-cards-1"><img src="assets/images/dott.svg" alt="dott">
+                                        <p>Satisfaction Gurantee </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <img src="assets/images/index/signature.png" alt="sig-image">
+                        </div>
+                        <div class="apointment-submit">
+                            <button>Make Appoinment</button>
+                            <a> Read More About <span><img src="assets/images/arrow.svg" alt="arrow"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <h2 class="pb-5">Trusted By 250+ Companies</h2>
+                <div class="main-slider">
+                    <div><img src="assets/images/index/logo-slid1.png" alt="logo-slider"></div>
+                    <div><img src="assets/images/index/logo-slid2.png" alt="logo-slider"></div>
+                    <div><img src="assets/images/index/logo-slid3.png" alt="logo-slider"></div>
+                    <div><img src="assets/images/index/logo-slid2.png" alt="logo-slider"></div>
+                    <div><img src="assets/images/index/logo-slid3.png" alt="logo-slider"></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- ======== Appointment Section  End  1.3. ========  -->
+
+        <section id="Services">
+            <div class="container">
+                <div class="row">
+                    <div class="services-text">
+                        <h2>Best Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes nascetur
+                            ridiculus
+                            mus.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card">
+                            <figure>
+                                <img src="assets/images/service-img1.svg" alt="Image">
+                            </figure>
+                            <h4>Physiotherapy</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur. Lorem accumsan sit quis lacus varius. Lectus quis
+                                mauris amet dictum suspendisse aenean nullam. Mauris senectus.</p>
+                        </div>
+                        <div class="service-card">
+                            <figure>
+                                <img src="assets/images/service-img3.svg" alt="Image">
+                            </figure>
+                            <h4>Sport Injuries</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur. Lorem accumsan sit quis lacus varius. Lectus quis
+                                mauris amet dictum suspendisse aenean nullam. Mauris senectus.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card">
+                            <figure>
+                                <img src="assets/images/service-img2.svg" alt="Image">
+                            </figure>
+                            <h4>Massage Therapy</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur. Lorem accumsan sit quis lacus varius. Lectus quis
+                                mauris amet dictum suspendisse aenean nullam. Mauris senectus.</p>
+                        </div>
+                        <div class="service-card">
+                            <figure>
+                                <img src="assets/images/service-img4.svg" alt="Image">
+                            </figure>
+                            <h4>Chiropratic Therapy</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur. Lorem accumsan sit quis lacus varius. Lectus quis
+                                mauris amet dictum suspendisse aenean nullam. Mauris senectus.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <figure class="service-mainimg">
+
+                            <img src="assets/images/index/service-image5.png" alt="Image">
+                            <div class="servic-card">
+                                <h4>We Proudly Give Quality Treatments</h4>
+                                <a> Read More About <span><img src="assets/images/arrow.svg" alt="arrow"></i></span></a>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="assets/js/style.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.main-slider').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                dots: false,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 320,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>
